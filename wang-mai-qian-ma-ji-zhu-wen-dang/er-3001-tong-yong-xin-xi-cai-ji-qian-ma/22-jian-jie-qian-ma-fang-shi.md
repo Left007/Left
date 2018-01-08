@@ -21,9 +21,17 @@
     </script>
 ```
 
-只需要调整的ta.src的值，根据是否为Ajax页面\(2.1.2\)、是否为单页面应用\(2.1.3\)添加对应的标记。
+只需要调整的ta.src的值，根据是否为Ajax页面\([2.1.2](/wang-mai-qian-ma-ji-zhu-wen-dang/er-3001-tong-yong-xin-xi-cai-ji-qian-ma/21-zhi-jie-qian-ma-fang-shi/212-ajaxye-mian.md)\)、是否为单页面应用\([2.1.3](/wang-mai-qian-ma-ji-zhu-wen-dang/er-3001-tong-yong-xin-xi-cai-ji-qian-ma/21-zhi-jie-qian-ma-fang-shi/213-dan-ye-mian-web-ying-yong.md)\)添加对应的标记。
 
 由于代码比较多，所以应该仅在使用zepto进行间接嵌码时使用这种方式。
 
 嵌码是非常关键的一步，影响到用户行为数据采集的准确性和完整性，特此提醒：
+
+* 不同网站要嵌的代码是不同的，不能张冠李戴，否则会影响采集数据的准确性；
+* 一个页面只嵌一次这段代码，不要多嵌，否则会影响采集数据的准确性；
+* 为了不影响用户正常浏览网页，建议在网页结尾的&lt;/body&gt;前嵌入这段代码，而不是页面一开始处。另外，这段代码是异步加载的，即使出现不能访问等问题，也不会影响网页本身，可以放心嵌入；
+* 如果网站还嵌入了谷歌统计、百度统计等代码，请将以上代码放在它们之前；
+* 不能使用innerHTML将获取的嵌码添加到页面上，此时添加的script标签无效
+
+
 
