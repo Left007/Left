@@ -11,5 +11,5 @@
 <script id="_trs_ta_js" src="//ta.8531.cn/c/js/ta.js?mpid=204&siteType=spa " async="async" defer="defer"></script>
 ```
 
-
+对于普通页面和Ajax页面的网站，每一个页面请嵌入上面得到的采集代码，以实现PV、UV等用户基础访问行为的采集。而对于单页面应用，只需要在该站点会用到的公共页面上嵌入上面得到的采集代码。
 
