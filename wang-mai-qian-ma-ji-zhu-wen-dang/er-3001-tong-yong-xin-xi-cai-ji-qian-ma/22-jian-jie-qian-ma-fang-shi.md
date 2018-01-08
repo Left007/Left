@@ -33,5 +33,7 @@
 * 如果网站还嵌入了谷歌统计、百度统计等代码，请将以上代码放在它们之前；
 * 不能使用innerHTML将获取的嵌码添加到页面上，此时添加的script标签无效
 
+（https://www.w3.org/TR/2008/WD-html5-20080610/dom.html\#innerhtml0）
+
 
 
