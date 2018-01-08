@@ -6,5 +6,9 @@
 需要在上面获取的代码中mpid后面增加标记“&waitTitle=true”（形式如下）。
 ```
 
-&lt;script id="\_trs\_ta\_js" src="//ta.8531.cn/c/js/ta.js?mpid=204&waitTitle=true" async="async" defer="defer"&gt;&lt;/script&gt;
+```
+<script id="_trs_ta_js" src="//ta.8531.cn/c/js/ta.js?mpid=204&waitTitle=true" async="async" defer="defer"></script>
+```
+
+
 
